@@ -1,6 +1,6 @@
 {
   "name": "pokemon-cp-calc",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A Pokémon Go CP Estimation Calculator",
   "license": "MIT",
   "repository": "ntwcklng/pokemon-cp-calculator",
