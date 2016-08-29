@@ -7,7 +7,7 @@
   "author": {
     "name": "ntwcklng",
     "email": "ntwcklng@gmail.com",
-    "url": "-"
+    "url": "https://github.com/ntwcklng/pokemon-cp-calculator"
   },
   "bin": "cli.js",
   "engines": {
@@ -23,19 +23,12 @@
   "keywords": [
     "cli-app",
     "cli",
-    ""
+    "pokemon",
+    "cp calculator"
   ],
   "dependencies": {
     "chalk": "^1.1.3",
     "cli-autocomplete": "^0.3.0",
     "number-prompt": "^0.1.0"
-  },
-  "devDependencies": {
-    "ava": "^0.15.2",
-    "nyc": "^7.1.0",
-    "xo": "^0.16.0"
-  },
-  "xo": {
-    "esnext": true
   }
 }
