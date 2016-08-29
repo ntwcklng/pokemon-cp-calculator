@@ -1,0 +1,41 @@
+{
+  "name": "pokemon-cp-calc",
+  "version": "0.0.1",
+  "description": "A Pokémon Go CP Estimation Calculator",
+  "license": "MIT",
+  "repository": "ntwcklng/pokemon-cp-calculator",
+  "author": {
+    "name": "ntwcklng",
+    "email": "ntwcklng@gmail.com",
+    "url": "-"
+  },
+  "bin": "cli.js",
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "exit 0"
+  },
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    ""
+  ],
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "cli-autocomplete": "^0.3.0",
+    "number-prompt": "^0.1.0"
+  },
+  "devDependencies": {
+    "ava": "^0.15.2",
+    "nyc": "^7.1.0",
+    "xo": "^0.16.0"
+  },
+  "xo": {
+    "esnext": true
+  }
+}
