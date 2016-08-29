@@ -16,6 +16,7 @@ $ npm install --save pokemon-cp-calc
 $ npm install --global pokemon-cp-calc
 ```
 
+![Pokemon CP Calculator CLI Usage](https://cloud.githubusercontent.com/assets/8714775/18054110/d2d3fb50-6e02-11e6-8235-1cfb40e13592.gif)
 
 
 ## License
