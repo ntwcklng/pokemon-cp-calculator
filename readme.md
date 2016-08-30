@@ -5,13 +5,13 @@
 ## Install
 
 ```
-$ npm install --save pokemon-cp-calc
+$ npm install --global pokemon-cp-calc
 ```
 
 ## CLI Usage
 
 ```
-$ npm install --global pokemon-cp-calc
+$ pokemon-cp-calc
 ```
 
 [![asciicast](https://asciinema.org/a/eecq8lg871jcclgzlctjg44vm.png)](https://asciinema.org/a/eecq8lg871jcclgzlctjg44vm)
