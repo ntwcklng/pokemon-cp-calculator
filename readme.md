@@ -1,4 +1,4 @@
-# pokemon-cp-calc [![Build Status](https://travis-ci.org/ntwcklng/pokemon-cp-calc.svg?branch=master)](https://travis-ci.org/ntwcklng/pokemon-cp-calc)
+# pokemon-cp-calc [![Build Status](https://travis-ci.org/ntwcklng/pokemon-cp-calculator.svg?branch=master)](https://travis-ci.org/ntwcklng/pokemon-cp-calculator)
 
 > A Pokémon Go CP Estimation Calculator
 
