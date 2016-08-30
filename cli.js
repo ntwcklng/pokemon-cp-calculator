@@ -10,12 +10,16 @@ const suggestPokemons = (input) => Promise.resolve(
   pokemonData.filter((pokemon) => pokemon.title.slice(0, input.length) === input)
 );
 
-autocompletePrompt('Choose a Pokemon', suggestPokemons).on('submit', (v) => {
-  const pickedPokemon = pokemonData.filter((pokemon) => pokemon.value === v);
-
+function getCP(pickedPokemon) {
   numberPrompt(`Current CP of ${pickedPokemon[0].title}?`).on('submit', (n) => {
+    if(n <= 0) return console.log('Please Enter a CP greater than 0'), getCP(pickedPokemon);
+
     cpCalculator(pickedPokemon[0], n);
     process.exit(-1);
   });
+}
 
+autocompletePrompt('Choose a Pokemon', suggestPokemons).on('submit', (v) => {
+  const pickedPokemon = pokemonData.filter((pokemon) => pokemon.value === v);
+  getCP(pickedPokemon);
 });
